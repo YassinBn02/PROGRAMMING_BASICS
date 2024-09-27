@@ -4,7 +4,5 @@ function popFront(arr){
         arr[i]=arr[i+1];
     }
     arr.length--
-    return arr;
+    return temp;
 }
-var arr=[1,2,3,4];
-console.log(popFront(arr));
