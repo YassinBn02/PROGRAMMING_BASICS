@@ -45,7 +45,7 @@ function Hard(time,day){
     }
 
 //Feature 3
-function Hard(time,day){
+function SuperHard(time,day){
     var reward ="";
     var even=["ice cream","cookies","candy"];
     var odd=["hot choclate","tea","cake"];
