@@ -4,8 +4,7 @@ function removeNegatives(arr) { // removed the var
     for(var i=0; i<arr.length; i++) { //chanfed the <= with <
         if(arr[i] < 0) {
             arr.splice(i,1); // i changed the pop with splice
-            i--;
-        }
+        }// removed the i--
     }
     return arr; // the array with arr
 }
